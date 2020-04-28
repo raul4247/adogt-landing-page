@@ -4,16 +4,118 @@
 <head>
   <meta charset='utf-8'>
   <title>Adogt</title>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
-  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
-
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.8.2/css/bulma.min.css">
+  <link href="https://fonts.googleapis.com/css2?family=Lato&family=Raleway&family=Quicksand:wght@600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/stylesheet.css">
 </head>
 
 <body>
-  <h1>Bem vindo ao Adogt</h1>
-  <img src="https://media1.giphy.com/media/PSKAppO2LH56w/source.gif">
+  <div id="content">
+    <div id="first-section">
 
+      <nav class="navbar" role="navigation" aria-label="main navigation">
+        <div class="navbar-brand">
+          <a class="navbar-item">
+            <img id="logo" src="imgs/logo.png"><span id="logo-text" class="white-text">Adogt</span>
+          </a>
+          <a role="button" class="navbar-burger burger" aria-label="menu" aria-expanded="false"
+            data-target="navbar-adogt">
+            <span aria-hidden="true"></span>
+            <span aria-hidden="true"></span>
+          </a>
+        </div>
+        <div id="navbar-adogt" class="navbar-menu">
+          <div class="navbar-start">
+            <a class="navbar-item white-text menu-item">Home</a>
+            <a class="navbar-item white-text menu-item">Sobre </a>
+          </div>
+      </nav>
+
+      <div id="content-first-section">
+        <div class="columns">
+          <div class="column">
+            <div class="container">
+              <h1 id="adogt-title" class="title white-text">Traga alegria à vida de um pet</h1>
+              <p class="text white-text">Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+                Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est
+                laborum.</p>
+                <hr/>
+                <p id="google-play-title" class="white-text">Em breve nas maiores lojas de aplicativos!</p>
+                <br/>
+                <figure id="google-play-logo" class="image">
+                  <img src="imgs/google_play_logo.png">
+                </figure>
+            </div>
+          </div>
+          <div class="column">
+            <div id="dogs-figure" class="card is-centered">
+                <figure  class="image is-centered">
+                  <img src="imgs/person_walking_dog.png">
+                </figure>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div id="second-section">
+      <h1 class="has-text-centered title white-text">Por que usar o Adogt?</h1>
+      <div class="columns">
+        <div class="column">
+          <div class="second-section-item is-centered align-to-right white-text">
+            <figure class="image is-128x128 is-centered">
+              <img class="is-rounded" src="imgs/dog.png">
+            </figure>
+            <p class="has-text-centered text"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est
+              laborum.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="second-section-item is-centered align-to-left white-text">
+            <figure class="image is-128x128 is-centered">
+              <img class="is-rounded" src="imgs/heart.png">
+            </figure>
+            <p class="has-text-centered text"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est
+              laborum.</p>
+          </div>
+        </div>
+      </div>
+      <div class="columns">
+        <div class="column">
+          <div class="second-section-item is-centered align-to-right white-text">
+            <figure class="image is-128x128 is-centered">
+              <img class="is-rounded" src="imgs/coins.png">
+            </figure>
+            <p class="has-text-centered text"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est
+              laborum.</p>
+          </div>
+        </div>
+        <div class="column">
+          <div class="second-section-item is-centered align-to-left white-text">
+            <figure class="image is-128x128 is-centered">
+              <img class="is-rounded" src="imgs/home.png">
+            </figure>
+            <p class="has-text-centered text"> Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia
+              deserunt mollit anim id est
+              laborum.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer">
+    <div class="content has-text-centered white-text">
+      <p id="footer-text">
+        Adogt by Petshop Boys 2020.
+      </p>
+    </div>
+  </footer>
 </body>
+<script src="js/bulma.js"></script>
 
 </html>

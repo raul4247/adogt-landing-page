@@ -1,0 +1,128 @@
+html {
+    height: 100%;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+}
+
+.is-centered {
+    margin: 0 auto
+}
+
+.white-text{
+    color:white;
+}
+
+.title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 100;
+}
+
+.text{
+    font-family: 'Lato', sans-serif;
+}
+
+#content {
+    flex: 1 0 auto;
+}
+
+.footer {
+    flex-shrink: 0;
+    padding: 5px;
+    background: -webkit-linear-gradient(to bottom right, #419fff, #74b9ff);
+    background: linear-gradient(to bottom right, #419fff, #74b9ff);}
+
+#footer-text {
+    font-family: 'Raleway', sans-serif;
+}
+
+.navbar {
+    background-color: rgba(255, 255, 255, .0);
+}
+
+.navbar-item {
+    padding-left: 0px;
+}
+
+.menu-item {
+    padding-left: 15px;
+}
+
+#navbar-adogt {
+    margin-left: 5%;
+}
+
+#logo{
+    width: 64px;
+    height: 64px;
+    max-width: 64px;
+    max-height: 64px;
+}
+
+#logo-text{
+    font-family: 'Quicksand', sans-serif;
+    font-size: 2.3em;
+}
+
+#first-section {
+    background: -webkit-linear-gradient(to bottom right, #419fff, #74b9ff);
+    background: linear-gradient(to bottom right, #419fff, #74b9ff);
+    padding: 3%;
+}
+
+#adogt-title{
+    font-size: 3em;
+    font-weight: 200;
+}
+
+#content-first-section {
+    padding-top: 3%;
+}
+
+#dogs-figure {
+    width: 30vw;
+}
+
+#second-section {
+    background: #201e1f;
+    padding-top: 20px;
+}
+
+.second-section-item {
+    width: 30vw;
+    padding-bottom: 15px;
+}
+
+#google-play-logo {
+    width: 13vw;
+}
+
+#google-play-title{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 1.2em;
+}
+
+@media only screen and (min-width: 768px) {
+    .align-to-left {
+        display: block;
+        float: left;
+    }
+    .align-to-right {
+        display: block;
+        float: right;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .navbar-menu {
+        background-color: #dfe6e9;
+    }
+    .menu-item{
+        color: #201e1f;
+
+    }
+}
